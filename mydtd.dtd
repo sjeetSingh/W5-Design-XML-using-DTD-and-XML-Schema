@@ -1,0 +1,21 @@
+<!ELEMENT book_inventory (author, book, publisher)>
+
+<!ELEMENT author (name, address, url)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ATTLIST author id ID #REQUIRED>
+<!ATTLIST author writes IDREFS #REQUIRED>
+
+<!ELEMENT book (isbn, price, title, year)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST book writtenBy IDREFS #REQUIRED>
+
+<!ELEMENT publisher (name, address, phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>	

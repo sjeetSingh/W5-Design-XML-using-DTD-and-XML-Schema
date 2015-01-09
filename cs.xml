@@ -1,0 +1,57 @@
+<book_inventory>
+	<author id="a1" writes="b1">
+		<name> Author 1 </name>
+		<address>id1_Address1</address>
+		<url> www.author1.com </url>
+	</author>
+
+	<author id="a2" writes="b2 b3">
+		<name> Author 2 </name>
+		<address>id2_Address2</address>
+		<url> www.author2.com </url>
+	</author>
+
+	<author id="a3" writes="b1 b3">
+		<name> Author 3 </name>
+		<address>id3_Address3</address>
+		<url> www.author3.com </url>
+	</author>
+
+	<author id="a4" writes="b3">
+		<name> Author 4 </name>
+		<address> id4_Address4</address>
+		<url> www.author4.com </url>
+	</author>
+
+
+	<book id="b1" writtenBy="a1" published="p1">
+		<isbn>13b1</isbn>
+		<price>25$</price>
+		<title>B1_title1</title>
+		<year>2010</year>
+	</book>
+
+	<book id="b2" writtenBy="a2" published="p1">
+		<isbn>24b1</isbn>
+		<price>35$</price>
+		<title>B2_title2</title>
+		<year>2001</year>
+	</book>
+
+	<book id="b3" writtenBy="a2" published="p1">
+		<isbn>24b1</isbn>
+		<price>35$</price>
+		<title>B2_title2</title>
+		<year>2001</year>
+	</book>
+
+	<publisher pid="p1">
+		<name>Publisher1</name>
+		<address>P1_Address1</address>
+		<phone>P1_Phone1</phone>
+		<url></url>
+	</publisher>
+</book_inventory>
+
+
+
